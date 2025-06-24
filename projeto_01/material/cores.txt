@@ -1,0 +1,9 @@
+# Cores que posso usar como principal no site
+
+1° Opção de paleta
+#9893DA = cor do background dos títulos (degradê, junto com: rgba(255, 0, 0, 0.534)
+#797A9E = cor do background do main
+#F42C04 = cor de links
+#2B2E33 = Talvez usar na cor de fundo
+#DCDCDD = Cor do cabeçalho
+

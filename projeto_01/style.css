@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Oswald';
+    src: url(material/OSWALD.otf) format(opentype);
+}
+/*Criando minhas variáveis*/
+:root{
+    --cor1: #797A9E;
+    --cor2: #9893DA;
+    --cor3: #F42C04;
+    --cor4: #2B2E33;
+    --cor5: #DCDCDD;
+
+    --fonte_titulo: "Montserrat", sans-serif;
+    --fonte_paragrafo: "roboto", sans-serif;
+    --fonte_padrao: Arial, Verdana, Sans-serif;
+}
+/*Configuração do body*/
+body{
+    background-color: var(--cor4);
+    margin: 0px;
+}
+/*Configuração do meu Header*/
+header{
+    background-color: var(--cor5);
+    padding: 20px;
+}
+/*Configuração do H1 de header*/
+header h1{
+    font-family: var(--fonte_titulo);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+    font-size: 2.2em;
+}
+/*Configurando o nav de header*/
+header nav{
+    /*Obs: Alinhei o nav todo à direita, pois a linha "display: inline" de "header li{}" não deixou os itens na direita*/
+    text-align: right;
+}
+/*Configurando a ul de header*/
+header ul{
+    padding: 0px;
+    margin: 0px;
+}
+/*Configurando todos os "li" de header*/
+header li{
+    list-style-type: none;
+    text-align: right;
+    display: inline;
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: var(--fonte_paragrafo);
+    color: black;
+}
+/*Hover para o li de header*/
+header li:hover{
+    background-color: var(--cor2);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+/*Configuração do "a" de header*/
+header a{
+    text-decoration: none;
+}
+
+/*2° parte*/
+.logo h2{
+    text-align: right;
+}

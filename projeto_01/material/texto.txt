@@ -1,0 +1,40 @@
+Motivos para estudar HTML
+
+[IMAGEM DO HTML]
+
+Se você tem interesse em criar sites, trabalhar com tecnologia ou apenas entender como a internet funciona, aprender HTML é o primeiro passo. Aqui estão 5 motivos para começar hoje mesmo!
+
+1- É a base de todo site
+HTML é a estrutura fundamental da internet. Todo site que você acessa — do Google até um blog pessoal — usa HTML para organizar seu conteúdo. Ele define onde ficam os textos, imagens, links, botões e outros elementos. Sem HTML, os navegadores não conseguiriam exibir uma página de forma compreensível. É como a planta de uma casa: mesmo que você pinte (CSS) e instale tecnologia (JavaScript), a estrutura sempre começa com HTML.
+
+[IMAGEM]
+
+2-  Porta de entrada para o desenvolvimento web
+Para quem deseja entrar no mundo da programação web, HTML é o primeiro passo. Ele é fácil de aprender, tem uma sintaxe clara e não exige lógica de programação complexa. Isso torna o início da jornada mais acessível e menos assustador. Além disso, todo o ecossistema do front-end (CSS, JavaScript, frameworks como React e até mesmo o backend em muitos casos) gira em torno de como o HTML está estruturado.
+[IMAGEM]
+
+3- Facilita personalizações e edições
+Com noções de HTML, você pode modificar e personalizar páginas da web com mais liberdade. Por exemplo, editar o layout de um blog, ajustar um botão em uma landing page, ou corrigir a estrutura de um e-mail marketing. Mesmo em plataformas com editores visuais (como WordPress, Wix, ou sistemas de e-commerce), saber HTML permite fazer ajustes que muitas vezes não são possíveis só com cliques.
+
+[IMAGEM]
+
+4- Desenvolve o raciocínio lógico e a organização
+Embora o HTML não seja uma linguagem de programação no sentido tradicional (não possui lógica condicional ou variáveis), ele estimula a organização mental e o pensamento estruturado. Para criar uma página bem construída, é preciso entender hierarquias, relações entre elementos e boas práticas de marcação. Isso ajuda a desenvolver uma mentalidade mais lógica e metódica, que será útil tanto em outras linguagens quanto em tarefas analíticas do dia a dia.
+
+[IMAGEM]
+
+5- É um diferencial no mercado de trabalho
+Ter conhecimentos em HTML é valorizado em diversas áreas, mesmo fora da programação. Profissionais de marketing digital, SEO, design, conteúdo e até suporte técnico ganham vantagem ao dominar o básico de HTML. Isso mostra proatividade, capacidade técnica e facilita a comunicação com equipes de tecnologia. Em alguns casos, pode até abrir portas para novas oportunidades ou promoções.
+
+[IMAGEM]
+
+POR ONDE COMEÇAR OS SEUS ESTUDOS?
+Curso de HTML e CSS do Curso em vídeo, apresentado pelo Gustavo Guanabara
+[VÍDEO DO CURSO EM VÍDEO]
+
+O curso de HTML do Gustavo Guanabara, disponível gratuitamente no portal Curso em Vídeo e no YouTube, é uma das melhores opções para quem está começando do zero. Com uma didática clara, linguagem acessível e muitos exemplos práticos, ele guia o aluno passo a passo na construção de páginas web, combinando teoria e prática de forma equilibrada. Além disso, o curso oferece materiais complementares em PDF, exercícios e uma comunidade ativa de alunos que trocam dúvidas e experiências. Por ser gratuito, completo e ministrado por um professor experiente, é altamente recomendado para quem quer aprender HTML com qualidade e confiança.
+
+Outro diferencial do curso:
+A didática do professor Guanabara é um dos principais motivos do sucesso do Curso em Vídeo. Ele consegue explicar conceitos técnicos de forma simples, usando exemplos do cotidiano e metáforas que facilitam a compreensão, mesmo para quem nunca teve contato com programação. Seu jeito descontraído e direto cria uma sensação de proximidade, o que torna o aprendizado mais leve e menos intimidante. Além disso, ele organiza o conteúdo de forma progressiva, respeitando o ritmo de quem está começando, o que ajuda a construir uma base sólida antes de avançar para tópicos mais complexos.
+
+

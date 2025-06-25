@@ -3,35 +3,42 @@
     font-family: 'Oswald';
     src: url(material/OSWALD.otf) format(opentype);
 }
-/*Criando minhas variáveis*/
+/* variáveis */
 :root{
-    --cor1: #797A9E;
-    --cor2: #9893DA;
-    --cor3: #F42C04;
-    --cor4: #2B2E33;
-    --cor5: #DCDCDD;
+    --cor1: #b1b1b1; /* Background do aside */
+    --cor2: #9893DA; /* Header */ 
+    --cor3: #F42C04; /* Destaques */
+    --cor4: #2B2E33; /* Background da página */
+    --cor5: #DCDCDD; /* Background do main */
 
     --fonte_titulo: "Montserrat", sans-serif;
     --fonte_paragrafo: "roboto", sans-serif;
     --fonte_padrao: Arial, Verdana, Sans-serif;
 }
-/*Configuração do body*/
+/* Configurações globais */
 body{
     background-color: var(--cor4);
     margin: 0px;
 }
-/*Configuração do meu Header*/
+p{
+    font-family: var(--fonte_paragrafo);
+    text-align: justify;
+    line-height: 30px;
+}
+
+/* Header*/
 header{
-    background-color: var(--cor5);
+    background-color: var(--cor2);
     padding: 20px;
 }
-/*Configuração do H1 de header*/
+/* H1 de header*/
 header h1{
     font-family: var(--fonte_titulo);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
     font-size: 2.2em;
+    text-align: center;
 }
-/*Configurando o nav de header*/
+/* nav de header*/
 header nav{
     /*Obs: Alinhei o nav todo à direita, pois a linha "display: inline" de "header li{}" não deixou os itens na direita*/
     text-align: right;
@@ -41,7 +48,7 @@ header ul{
     padding: 0px;
     margin: 0px;
 }
-/*Configurando todos os "li" de header*/
+/* "li" de header */
 header li{
     list-style-type: none;
     text-align: right;
@@ -52,18 +59,60 @@ header li{
     font-family: var(--fonte_paragrafo);
     color: black;
 }
-/*Hover para o li de header*/
+/* Hover para o li de header */
 header li:hover{
-    background-color: var(--cor2);
+    background-color: #b0aafd; /* Outro tom da cor 2 */
     border-radius: 10px;
     transition: 0.5s;
+    font-size: 22px;
+    color: rgba(8, 8, 8, 0.74)
 }
 /*Configuração do "a" de header*/
 header a{
     text-decoration: none;
 }
 
+
 /*2° parte*/
-.logo h2{
-    text-align: right;
+.logo {
+    color: white;
+    font-weight: bold;
+}
+
+/* Main */
+main{
+    background-color: var(--cor5);
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+main h2{
+    font-family: var(--fonte_titulo);
+    font-size: 2.1em;
+}
+main p{
+    font-size: 1.1em;
+}
+main strong{
+    color: var(--cor3);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.199);
+}
+main img{
+    width: 100%;
+}
+
+/* Aside */ 
+aside{
+    width: 70%;
+    margin: auto;
+    background-color: var(--cor1); 
+    padding: 20px;
+    border-radius: 20px;
+}
+
+aside h2{
+    font-family: var(--fonte_titulo);
 }

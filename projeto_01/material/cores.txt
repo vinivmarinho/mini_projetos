@@ -6,4 +6,7 @@
 #F42C04 = cor de links
 #2B2E33 = Talvez usar na cor de fundo
 #DCDCDD = Cor do cabeçalho
+#b1b1b1 = Cor do aside
 
+Cor para o background dos títulos:
+background-image: linear-gradient(to right, var(--cor2), var(--cor5));

@@ -99,6 +99,7 @@ main{
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
 }
 main h2{
     font-family: var(--fonte_titulo);
@@ -117,6 +118,7 @@ aside{
     background-color: var(--cor1); 
     padding: 20px;
     border-radius: 20px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
 }
 
 aside h2{
@@ -145,4 +147,13 @@ aside a:after{
     margin: auto; /* Centraliza o próprio container horizontalmente se ele tiver uma largura definida */
     max-width: 900px; /* Largura máxima */
     min-width: 300px; /* Largura mínima */
+}
+
+/* Footer */
+footer p{
+    text-align: center;
+    background-color: var(--cor3);
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.288);
 }

@@ -37,6 +37,10 @@ strong{
 header{
     background-color: var(--cor2);
     padding: 20px;
+    max-height: 300px;
+    min-height: 150px;
+    max-width: 100%;
+    min-width: 150px;
 }
 /* H1 de header*/
 header h1{
@@ -89,16 +93,16 @@ header a{
 /* Main */
 main{
     background-color: var(--cor5);
-    width: 60%;
+    width: 70%;
     margin: auto;
-    padding: 20px;
+    padding: 2rem;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
 }
 main h2{
     font-family: var(--fonte_titulo);
-    font-size: 2.1em;
+    font-size: 2.1rem;
 }
 
 
@@ -108,7 +112,7 @@ main img{
 
 /* Aside */ 
 aside{
-    width: 60%;
+    width: 70%;
     margin: auto;
     background-color: var(--cor1); 
     padding: 20px;
@@ -139,6 +143,6 @@ aside a:after{
     display: flex; 
     justify-content: center; /* Centraliza horizontalmente o conteúdo flexível */
     margin: auto; /* Centraliza o próprio container horizontalmente se ele tiver uma largura definida */
-    max-width: 600px; /* Largura máxima */
+    max-width: 900px; /* Largura máxima */
     min-width: 300px; /* Largura mínima */
 }

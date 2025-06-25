@@ -24,7 +24,14 @@ p{
     font-family: var(--fonte_paragrafo);
     text-align: justify;
     line-height: 30px;
+    font-size: 1.1em;
+    text-indent: 30px;
 }
+strong{
+    color: var(--cor3);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.199);
+}
+
 
 /* Header*/
 header{
@@ -82,7 +89,7 @@ header a{
 /* Main */
 main{
     background-color: var(--cor5);
-    width: 70%;
+    width: 60%;
     margin: auto;
     padding: 20px;
     margin-top: 20px;
@@ -93,20 +100,15 @@ main h2{
     font-family: var(--fonte_titulo);
     font-size: 2.1em;
 }
-main p{
-    font-size: 1.1em;
-}
-main strong{
-    color: var(--cor3);
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.199);
-}
+
+
 main img{
     width: 100%;
 }
 
 /* Aside */ 
 aside{
-    width: 70%;
+    width: 60%;
     margin: auto;
     background-color: var(--cor1); 
     padding: 20px;
@@ -115,4 +117,28 @@ aside{
 
 aside h2{
     font-family: var(--fonte_titulo);
+    font-size: 2.1em;
+    background-image: linear-gradient(to right, #ffffff, var(--cor5));
+    text-align: center;
+}
+aside a{
+    text-decoration: none;
+    color: var(--cor3);
+    background-color: rgba(0, 0, 0, 0.658);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    padding: 2px;
+}
+aside a:hover{
+    font-size: 18px;
+}
+/* Colocando o emoji do link */
+aside a:after{
+    content: '\1F517';
+}
+.video{
+    display: flex; 
+    justify-content: center; /* Centraliza horizontalmente o conteúdo flexível */
+    margin: auto; /* Centraliza o próprio container horizontalmente se ele tiver uma largura definida */
+    max-width: 600px; /* Largura máxima */
+    min-width: 300px; /* Largura mínima */
 }

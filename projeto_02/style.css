@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* Globais */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh; /*  Garante que a página tenha no mínimo a altura inteira da tela, mesmo com pouco conteúdo */
+    background-color: darkgray;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+/* Header */
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps; /* Usa letras maiúsculas pequeneas (versaletes) */
+}
+header p{
+    padding-bottom: 50px;
+}
+
+/* Sections */
+
+section{
+    padding-top: 10vh; /* Espaço no topo: 10% da altura da tela (responsivo) */
+    padding-bottom: 10vh; /* Espaço embaixo: 10% da altura da tela (responsivo) */
+    line-height: 2em; /* Espaço entre as linhas: 2em */
+    padding-left: 30px; 
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.especial{
+    background-color: rgb(63, 63, 50);
+    color: white;
+}
+section.especial > p{
+    background-color: rgba(0, 0, 0, 0.096);
+    width: 300px;
+
+}
+
+
+
+
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

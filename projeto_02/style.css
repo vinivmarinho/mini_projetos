@@ -1,7 +1,13 @@
 @charset "UTF-8";
-
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap'); /* Passion one */
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /* Sriracha*/
 /* Globais */
-
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+    --fonte3: "Sriracha", cursive;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -9,6 +15,7 @@
 html, body{
     min-height: 100vh; /*  Garante que a página tenha no mínimo a altura inteira da tela, mesmo com pouco conteúdo */
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 a{
     color: white;
@@ -30,6 +37,8 @@ header{
 header h1{
     padding-top: 50px;
     font-variant: small-caps; /* Usa letras maiúsculas pequeneas (versaletes) */
+    font-family: var(--fonte2);
+    font-size: 10vw; /* Define o tamanho da letra como 10% da largura da tela (viewport). Método responsivo */
 }
 header p{
     padding-bottom: 50px;
@@ -41,7 +50,9 @@ section{
     padding-top: 10vh; /* Espaço no topo: 10% da altura da tela (responsivo) */
     padding-bottom: 10vh; /* Espaço embaixo: 10% da altura da tela (responsivo) */
     line-height: 2em; /* Espaço entre as linhas: 2em */
-    padding-left: 30px; 
+    padding-left: 50px; 
+    font-family: var(--fonte3);
+    font-size: 2.7vw; /* /* Define o tamanho da letra como 3,5% da largura da tela (viewport). Método responsivo */
 }
 section.normal{
     background-color: white;
@@ -53,7 +64,7 @@ section.especial{
 }
 section.especial > p{
     background-color: rgba(0, 0, 0, 0.096);
-    width: 300px;
+    display: inline-block;
 
 }
 

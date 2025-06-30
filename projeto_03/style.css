@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* Globais */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background: url(pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Main */
+main{
+    position: relative;
+    height: 100vh;
+}
+
+/*Section telefone*/
+section#telefone{
+    /* As seguintes 4 linhas centralizam o elemento dentro do elemento "main"*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 590px;
+    width: 293px;
+    background: url(pacote-d013/imagens/frame-iphone_293.png) no-repeat;
+}

@@ -2,24 +2,32 @@
 
 /* Globais */
 *{
+    /* Zero todas as margens e paddings da página*/
     margin: 0px;
     padding: 0px;
+    /* Estilo e cor da fonte */
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 html, body{
+    /* Ocupar 100% de altura e largura (baseado no tamanho da tela*/
     height: 100vh;
     width: 100vw;
 }
 body{
+    /* Imagem de fundo que não se repete e que foca no topo do centro (da própria imagem) */
     background: url(pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
+    /* Imagem cobre toda a tela (mesmo que ocorram alguns cortes) */
     background-size: cover;
+    /* Imagem de fundo fixa enquanto o conteúdo rola */
     background-attachment: fixed;
 }
 
 /* Main */
 main{
+    /* Posição relativa */
     position: relative;
+    /* Ocupa 100% da altura (com base no tamanho da tela) */
     height: 100vh;
 }
 
@@ -30,7 +38,9 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* O container "section" tem altura e largura examente iguais ao da imagem do telefone */
     height: 590px;
     width: 293px;
+    /* O container recebe uma imagem de fundo que não se repete */
     background: url(pacote-d013/imagens/frame-iphone_293.png) no-repeat;
 }

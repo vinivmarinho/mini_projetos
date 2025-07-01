@@ -44,3 +44,11 @@ section#telefone{
     /* O container recebe uma imagem de fundo que não se repete */
     background: url(pacote-d013/imagens/frame-iphone_293.png) no-repeat;
 }
+iframe#frame{
+    position: relative;
+    /* Valores para o background ficar dentro do celular */
+    top: 75px;
+    left: 20px;
+    height: 442px;
+    width: 249px;
+}

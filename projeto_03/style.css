@@ -48,7 +48,23 @@ iframe#frame{
     position: relative;
     /* Valores para o background ficar dentro do celular */
     top: 75px;
-    left: 20px;
-    height: 442px;
-    width: 249px;
+    left: 21px;
+    height: 450px;
+    width: 251px;
+}
+section#redes_sociais{
+    text-align: right; /* Alinha a section à direita */
+}
+section#redes_sociais img{ /* Configura as imagens da section "redes_sociais" */
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px 2px black;
+    box-sizing: border-box; /* A borda fica do tamanho da caixa (ou seja, do próprio elemento "img" */
+}
+section#redes_sociais img:hover{
+    transform: translate(-5px, -5px); /* Posição muda */
+    box-shadow: 2px 2px 5px 4px black; /* Sombra */
+    border: 2px solid rgba(255, 255, 255, 0.76) /* Borda */;
+    transition: transform 0.5s; /* O tempo pro transform. (Poderia alterar o tempo para cada propriedade dada */
 }

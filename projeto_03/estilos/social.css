@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* Estilo para a tela das redes sociais
+
+/* Globais */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Escondendo a barra de rolagem: */
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+img{
+    width: 100vw; /* Imagem com a largura de 100% da tela */
+}
+
+a{
+    display: block; /* Posição em bloco */
+    background-color: darkred; 
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}

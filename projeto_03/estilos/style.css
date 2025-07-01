@@ -16,7 +16,7 @@ html, body{
 }
 body{
     /* Imagem de fundo que não se repete e que foca no topo do centro (da própria imagem) */
-    background: url(pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
     /* Imagem cobre toda a tela (mesmo que ocorram alguns cortes) */
     background-size: cover;
     /* Imagem de fundo fixa enquanto o conteúdo rola */
@@ -42,7 +42,7 @@ section#telefone{
     height: 590px;
     width: 293px;
     /* O container recebe uma imagem de fundo que não se repete */
-    background: url(pacote-d013/imagens/frame-iphone_293.png) no-repeat;
+    background: url(../imagens/frame-iphone_293.png) no-repeat;
 }
 iframe#frame{
     position: relative;

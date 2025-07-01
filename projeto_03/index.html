@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto rede social</title>
-    <link rel="shortcut icon" href="pacote-d013/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
      <main>
         <section id="telefone">
             <!--Usando o iframe de outro documento que tem o background da tela-home-->
-            <iframe src="home.html" id="frame">
+            <iframe src="home.html" id="frame" name="tela">
                 <p>Seu navegador não é compatível com isso</p>
             </iframe>
                 
         </section>
         <section id="redes_sociais">
-            <a href="#"><img src="pacote-d013/imagens/logo-instagram.jpg" alt="Logo do instagram"></a><br>
-            <a href="#"><img src="pacote-d013/imagens/logo-github.jpg" alt="Logo do github"></a><br>
-            <a href="#"><img src="pacote-d013/imagens/logo-facebook.jpg" alt="Logo facebook"></a>
+            <a href="home.html" target="tela"><img src="imagens/logo-home.jpg" alt="Logo home"></a><br>
+            <a href="instagram.html" target="tela"><img src="imagens/logo-instagram.jpg" alt="Logo do instagram"></a><br>
+            <a href="github.html" target="tela"><img src="imagens/logo-github.jpg" alt="Logo do github"></a><br>
+            <a href="facebook.html" target="tela"><img src="imagens/logo-facebook.jpg" alt="Logo facebook"></a>
         </section>
      </main>
 </body>

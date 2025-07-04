@@ -25,7 +25,18 @@
     img#pc{display:block;}
     img#tv{display:none;}
 }
+@media print{ /* Impressão */
+    *{ /* Mudando a fonte */
+        font-family: 'Courier New', Courier, monospace;
+    }
+    /* Na impressão não tem imagem de fundo */
+    img#celular{display:none;}
+    img#tablet{display:none;}
+    img#impressora{display:block;}
+    img#pc{display:none;}
+    img#tv{display:none;}
 
+}
 @media screen and (min-width: 1200px){
     body{ /* Mudando a imagem de fundo */
         background-image: url(../imagens/back-tv.jpg);

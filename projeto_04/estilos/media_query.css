@@ -1,2 +1,39 @@
 @charset "UTF-8";
 /* Estilos dos diferentes dispositivos */
+/* Utilizei os device Breakpoints para os tamanhos (diretamente do site W3schools) */
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /* Tablets */
+    body{ /* Mudando a imagem de fundo */
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    /* Display na img do tablet */
+    img#celular{display:none;}
+    img#tablet{display:block;}
+    img#impressora{display:none;}
+    img#pc{display:none;}
+    img#tv{display:none;}
+} 
+
+@media screen and (min-width: 992px) and (max-width: 1200px){ /* Desktops */
+    body{ /* Mudando a imagem de fundo */
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    /* Display na img do pc */
+    img#celular{display:none;}
+    img#tablet{display:none;}
+    img#impressora{display:none;}
+    img#pc{display:block;}
+    img#tv{display:none;}
+}
+
+@media screen and (min-width: 1200px){
+    body{ /* Mudando a imagem de fundo */
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    /* Display na img da tv */
+    img#celular{display:none;}
+    img#tablet{display:none;}
+    img#impressora{display:none;}
+    img#pc{display:none;}
+    img#tv{display:block;}
+}

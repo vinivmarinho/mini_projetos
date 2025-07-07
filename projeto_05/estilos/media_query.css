@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Para aparelhos médios. A partir de 768px */
+@media screen and (min-width: 768px){
+    /* O Menu irá aparecer normalmente */
+    #hamburguer{
+        display: none; /* ícone some */
+    }
+    nav{
+        display: block;
+    }
+    nav li{
+        display: inline-block; /* Sentido horizontal */
+    }
+    /* MAIN */
+    main{
+        width: 60%; /* Quando a tela tiver 768px ou mais, o width de main será 60% da tela */
+    }
+
+}

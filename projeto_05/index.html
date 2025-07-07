@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="estilos/style.css">
     <!--Link para o ícone do menu-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <!--Link para media queries-->
+    <link rel="stylesheet" href="estilos/media_query.css">
 </head>
-<body>
+<!--Quando a tela muda de tamanho, a função "Tamanho" será chamada-->
+<body onresize="Tamanho()">
     <header>
         <h1>Meu Site</h1>
         <!--Adicionando o ícone do Menu-->
@@ -39,6 +42,15 @@
     </main>
     <!--Interatividade do Menu com JavaScript-->
     <script>
+        function Tamanho(){
+            /* Se a largura da tela for 768, o nav (id = 'menu') será mostrado em display block */
+            if (window.innerWidth >= 768){
+                menu.style.display = 'block';
+            }else{
+                menu.style.display = 'none';
+            }
+        }
+
         function clickMenu() {
             /* Ao clicar no ícone se o display for "none", ele se torna "block", e vice-versa */
             if (menu.style.display == 'none'){

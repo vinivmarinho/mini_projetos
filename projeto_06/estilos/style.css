@@ -63,7 +63,7 @@ section#login p{
 
 form > div.campo{ /* Formulário de Login e Senha */
     background-color: #5F2C82;
-    border: 2px solid #5F2C82;
+    border: 3px solid #5F2C82;
     width: 95%;
     height: 40px;
     margin: auto;
@@ -81,7 +81,7 @@ div.campo  span{ /* ícone de pessoa e chave */
 div.campo input{ /* Campo de Login e Senha */
     background-color: #40acff;
     font-size: 1em;
-    width: calc(100% - 45px); /* 100% menos a qtd de pixels que o ícone está ocupando (cerca de 45px) */
+    width: calc(100% - 50px); /* 100% menos a qtd de pixels que o ícone está ocupando (cerca de 45px) */
     height: 100%;
     border: none;
     border-radius: 5px;

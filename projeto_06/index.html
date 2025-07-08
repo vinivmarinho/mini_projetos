@@ -6,6 +6,8 @@
     <title>Tela de Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media_query.css">
+    <!--Link para os ícones que posso usar no código-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 </head>
 <body>
     <main>
@@ -16,6 +18,22 @@
                 <h1>Login</h1>
                 <p>Faça o login para fazer as configurações no seu ambiente.</p>
             </div>
+            <form action="cadastro.js" method="get" autocomplete="on">
+                <div class=campo>
+                    <!--Botão de login-->
+                    <label for="id_email"><span class="material-symbols-outlined">Person</span></label>
+                    <input type="email" name="email" id="id_email" autocomplete="email" required>
+                </div>
+                <div class="campo">
+                    <!--Botão de Senha-->
+                    <label for="id_senha"><span class="material-symbols-outlined">key</span></label>
+                    <input type="password" name="senha" id="id_senha" required autocomplete="current-password" minlength="5" maxlength="15">
+                </div>
+                <input type="submit" value="Entrar">
+                <a href="esqueci_senha.html">
+                    Esqueci a senha
+                </a>
+            </form>
         </section>
     </main>
 </body>

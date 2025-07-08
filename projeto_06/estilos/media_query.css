@@ -33,6 +33,9 @@
         height: 40px;
         border-radius: 5px;
     }
+    div.campo input{ /* Campo de Login e Senha */
+        width: calc(100% - 45px); /* 100% menos a qtd de pixels que o ícone está ocupando (cerca de 60px) */
+    }
     
 }
 
@@ -75,4 +78,8 @@
         height: 40px;
         border-radius: 5px;
     }
+    div.campo input{ /* Campo de Login e Senha */
+        width: calc(100% - 45px); /* 100% menos a qtd de pixels que o ícone está ocupando (cerca de 60px) */ 
+    }
+    
 }

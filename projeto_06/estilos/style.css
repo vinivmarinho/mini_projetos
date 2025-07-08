@@ -81,7 +81,7 @@ div.campo  span{ /* ícone de pessoa e chave */
 div.campo input{ /* Campo de Login e Senha */
     background-color: #40acff;
     font-size: 1em;
-    width: calc(100% - 50px); /* 100% menos a qtd de pixels que o ícone está ocupando (cerca de 45px) */
+    width: calc(100% - 60px); /* 100% menos a qtd de pixels que o ícone está ocupando (cerca de 60px) */
     height: 100%;
     border: none;
     border-radius: 5px;

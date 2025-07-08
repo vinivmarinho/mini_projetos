@@ -16,6 +16,14 @@
         float: right;
         width: 60%;
     }
+    /* Botão "Entrar" */
+    form > input[type=submit] {
+        width: 80%;
+    }
+    /* Botão "Esqueci" a senha */
+    form > a.botao{
+        width: 40%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -33,5 +41,11 @@
     section#login div#formulario{
         float: right;
         width: 60%;
+    }
+    section#login h1{
+        font-size: 2em;
+    }
+    section#login p{
+    font-size: 1.2em;
     }
 }

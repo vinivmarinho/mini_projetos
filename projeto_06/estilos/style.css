@@ -24,6 +24,7 @@ main{
     height: 100vh;
     
 }
+
 /* SECTION */
 section#login{
     /* Centralizando a section (da maneira tradicional */
@@ -50,4 +51,54 @@ section#login div#imagem{
 }
 section#login div#formulario{
     padding: 10px;
+}
+
+section#login h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+section#login p{
+    font-size: 0.8em;
+}
+/* Botão de "Entrar" */
+form > input[type=submit]{
+    display: block;
+    margin: auto;
+    width: 95%;
+    height: 40px;
+    font-size: 1em;
+    background-color: #39A0ED;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover {
+    background-color: #215e8d;
+}
+/* Botão "Esqueci a senha" */
+form > a.botao{
+    display: block;
+    margin: auto;
+    width: 95%;
+    height: 40px;
+    font-size: 1em;
+    background-color: white;
+    border: 1px solid #39A0ED;
+    color: #39A0ED;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+form > a.botao:hover{
+    background-color: #69beff;
+}
+form > a.botao > span{
+    font-size: 0.8em;
 }

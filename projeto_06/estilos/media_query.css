@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet */
+@media screen and (min-width: 600px) and (max-width: 992px) { /* Tablets em retrato e celulares grandes */
     body{
         background-image: linear-gradient(to top, #39A0ED, #5F2C82);
     }

@@ -34,12 +34,11 @@ section#login{
     transform: translate(-50%, -50%);
     /* Largura, altura, cor, borda redonda */
     width: 250px;
-    height: 500px;
+    height: 515px;
     background-color: white;
     border-radius: 20px;
     overflow: hidden; /* Esconde oq ultrapassar a section de login */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
-
     /* Transição */
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease; /* Deixa a transição suave */
@@ -50,7 +49,7 @@ section#login div#imagem{
     width: 250px;
 }
 section#login div#formulario{
-    padding: 10px;
+    padding: 8px;
 }
 
 section#login h1{
@@ -60,6 +59,18 @@ section#login h1{
 section#login p{
     font-size: 0.8em;
 }
+
+/* Formulário de Login e Senha */
+form > div.campo{
+    background-color: #5F2C82;
+    width: 95%;
+    height: 30px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
 /* Botão de "Entrar" */
 form > input[type=submit]{
     display: block;

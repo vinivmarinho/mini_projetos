@@ -25,6 +25,13 @@
         width: 60%;
         float: right;
     }
+    /* Formulário de Login e Senha */
+    form > div.campo{
+        width: 60%;
+        float: right;
+        height: 30px;
+        border-radius: 5px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -48,5 +55,21 @@
     }
     section#login p{
     font-size: 1.2em;
+    }
+    /* Botão "Entrar" */
+    form > input[type=submit] {
+        width: 60%;
+    }
+    /* Botão "Esqueci" a senha */
+    form > a.botao{
+        width: 60%;
+        float: right;
+    }
+    /* Formulário de Login e Senha */
+    form > div.campo{
+        width: 60%;
+        float: right;
+        height: 30px;
+        border-radius: 5px;
     }
 }

@@ -18,11 +18,12 @@
     }
     /* Botão "Entrar" */
     form > input[type=submit] {
-        width: 80%;
+        width: 60%;
     }
     /* Botão "Esqueci" a senha */
     form > a.botao{
-        width: 40%;
+        width: 60%;
+        float: right;
     }
 }
 
